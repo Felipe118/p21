@@ -1,6 +1,6 @@
 # TESTE P21 - All Balck
 
-##instruções para instalar na sua maquina
+## Instruções para instalar na sua maquina
 
 1 - Faça clone do projeto git clone https://github.com/Felipe118/p21.git <strong>dentro da pagina htdocs no xampp</strong> <br>
 2 - Renomeio o arquivo .enx-example para .env e dentro dele coloque as credencias do seu banco de dados MySQL <br>
