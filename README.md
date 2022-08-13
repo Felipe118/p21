@@ -7,4 +7,4 @@
 2 - verifique no php.ini se as extensões extension=fileinfo extension=gd2 estão habilitadas no caso do windows <br>
 3 - caso for linux instalar ```sudo apt-get install php7.4-gd sudo apt-get install php7.4-intl sudo apt-get install php7.4-xsl``` <br>
 4 - execulte o comando ``` composer install ```
-5 - abra projeto utilizando servidor embutido do PHP ``` php -S localhost:8080 ```;
+5 - abra projeto na pasta raiz utilizando servidor embutido do PHP ``` php -S localhost:8080 ```;
