@@ -17,4 +17,27 @@
               return $fans;
  
           }
+
+          public function totalFans()
+          { 
+              $query = "SELECT count(id) as id FROM torcedores";
+              $stmt = $this->database->prepare($query);
+              $stmt->execute();
+ 
+              $total = $stmt->fetchAll();
+ 
+              return $total;
+ 
+          }
+
+          public function paginate($paginate)
+          {
+            $query = "SELECT *  FROM torcedores";
+            $stmt = $this->database->prepare($query);
+            $stmt->execute();
+
+            $total = $stmt->fetchAll();
+
+            return $total;
+          }
     }

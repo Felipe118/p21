@@ -7,7 +7,7 @@
         {
             
             try{
-                $connection = new \PDO('mysql:host=127.0.0.1;dbname=AllBlack',
+                $connection = new \PDO('mysql:host=127.0.0.1;dbname='.getenv('DB_DATABASE').'',
                     getenv('DB_USERNAME'), 
                     getenv('DB_PASSWORD')
                 );
