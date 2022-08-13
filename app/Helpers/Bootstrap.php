@@ -47,7 +47,7 @@
         //Pegando a URI
         protected function getUrl()
         {
-            return str_replace('/P21', '',parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH));
+            return parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH);
         }
 
     }

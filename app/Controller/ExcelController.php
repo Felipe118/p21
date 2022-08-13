@@ -49,7 +49,7 @@ use App\Config\Controller;
             header('Content-Disposition: attactment; filename="cliente.xlsx"');
             $writer->save('php://output');
 
-            header('Location: /P21/list');
+            header('Location: /list');
             //writer->save('cliente.xlsx');
         }
     }

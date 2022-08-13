@@ -40,14 +40,14 @@
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                    <li><a href="/P21/list" class="nav-link px-2 text-white">Torcedores </a></li>
+                    <li><a href="/list" class="nav-link px-2 text-white">Torcedores </a></li>
                 </ul>
             </div>
         </div>
     </header> 
     
     <section>
-        <form action="/P21/store" class="col-7 form" method="POST" enctype="multipart/form-data">
+        <form action="/store" class="col-7 form" method="POST" enctype="multipart/form-data">
             <div class="form-group col-10 mb-3 ">
                 <label class="form-label" for="">Upload Arquivo XML</label>
                 <input type="file" name="arquivo" class="form-control">

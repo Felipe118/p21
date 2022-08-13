@@ -31,7 +31,7 @@
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                    <li><a href="/P21/" class="nav-link px-2 text-white">XML </a></li>
+                    <li><a href="/" class="nav-link px-2 text-white">XML </a></li>
                 </ul>
             </div>
         </div>
@@ -39,7 +39,7 @@
 
         <div class="card-body p-0 col-md-10 tabela">
             <div style="float:right" class="mb-2">
-                <a href="/P21/export"><button class="btn btn-success">Exportar Planilha</button></a>
+                <a href="/export"><button class="btn btn-success">Exportar Planilha</button></a>
             </div>
             <table class="table">
                 <thead>
